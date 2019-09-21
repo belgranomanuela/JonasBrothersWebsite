@@ -1,0 +1,269 @@
+/*
+.discografia {
+    display: flex;
+    width: 100%;
+    padding: 4% 2%;
+    box-sizing: border-box;
+    height: 100vh;
+}
+.albums {
+    text-transform: uppercase;
+    color: rgba(39, 16, 51, 1);
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Muli', Arial, sans-serif;
+    background-color: rgb(198, 243, 214);
+}
+
+.box {
+    flex: 1;
+    overflow: hidden;
+    transition: .5s;
+    margin: 0 2%;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, .1);
+    line-height: 0;
+}
+
+.box>img {
+    width: 150%;
+    height: calc(100% - 10vh);
+    object-fit: cover;
+    transition: .5s;
+}
+
+.box>span {
+    font-size: 3.8vh;
+    display: block;
+    text-align: center;
+    height: 10vh;
+    line-height: 2.6;
+}
+
+.box:hover {
+    flex: 1 1 50%;
+}
+
+.box:hover>img {
+    width: 100%;
+    height: 100%;
+}
+.nav-container {
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: right;
+    background: rgba(116, 34, 108, 1);
+    position: sticky;
+    z-index: 100;
+    top: 0px;
+    left: 0px;
+    margin: 0px auto;
+    width: 100%;
+    padding: 24px 30px;
+    height: 64px;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    font-family: 'Muli';
+    color: purple;
+}
+
+.nav-container li {
+    display: inline;
+    list-style: outside none none;
+    margin: 0.5em 0.6em;
+    padding: 12px 15px;
+    position: relative;
+    font-family: 'Muli';
+}
+
+.nav-container li a {
+    color: #e00333;
+    text-decoration: none;
+}
+
+.nav-container li a:hover {
+    text-decoration: underline;
+}
+.discografia {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.members li {
+    display: inline;
+    text-align: center;
+    font-family: 'Muli';
+}
+
+.members {
+    text-align: center;
+    font-family: 'Muli';
+    padding: 20px;
+    margin: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+    <div class="hovereffect">
+        <img class="img-responsive" src="http://placehold.it/350x200" alt="">
+            <div class="overlay">
+                <h2>Effect 11</h2>
+				<p>
+					<a href="#">LINK HERE</a>
+				</p>
+            </div>
+    </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+        <div class="hovereffect">
+            <div class="itsabouttime box" >
+                <img class="img-discos" src="imagenes/Its about time.jpg" alt="">
+              </div> 
+            <div class="overlay">
+                    <h2></h2>
+            <p><a href="#"></a></p>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+   
+    <div class="first-container">
+    <div class="nav-container">
+      <div class="nav-row">
+          <div class="nav-logo">
+            <a href="#">
+              Jonas Brothers
+            </a>
+          </div>
+          <div class="nav-controls">
+              <a href="#">Home</a>
+              <a href="#">About</a>
+              <a href="#">Tour</a>
+              <a href="#">Contact</a>
+          </div>
+          <div class="d-flex flex-row justify-content-around">
+            <a class="btn fa fa-facebook" href="https://www.facebook.com/jonasbrothers"></a>
+            <a class="btn fa fa-youtube" href="https://www.youtube.com/jonasbrothers"></a>
+            <a class="btn fa fa-instagram" href="https://www.instagram.com/jonasbrothers"></a>
+          </div>
+      </div>
+    </div>
+  </div> 
+
+
+
+
+
+
+
+
+
+
+  
+<nav class="navbar navbar-expand-lg navbar-dark colormenu sticky-top">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a href="#"> <img class="d-inline-block align-top w-25 h-25" src="images/card1.jpg" alt=""></a>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <div class="navbar-nav mr-auto ml-auto text-center">
+        <a class="nav-item nav-link h2 mr-5" href="#">Home</a>
+        <a class="nav-item nav-link h2 mr-5" href="#">About</a>
+        <a class="nav-item nav-link h2 mr-5" href="#">Music</a>
+        <a class="nav-item nav-link h2 mr-5" href="#">Tour</a>
+        <a class="nav-item nav-link h2 mr-5" href="#">Contact</a>
+      </div>
+      <div class="d-flex flex-row justify-content-around">
+        <a class="btn fa fa-facebook" href="https://www.facebook.com/jonasbrothers"></a>
+        <a class="btn fa fa-youtube" href="https://www.youtube.com/jonasbrothers"></a>
+        <a class="btn fa fa-instagram" href="https://www.instagram.com/jonasbrothers"></a>
+      </div>
+    </div>   
+</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-dark colormenu sticky-top">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a href="#"> <img class="d-inline-block align-top w-25 h-25" src="images/card1.jpg" alt=""></a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <div class="navbar-nav mr-auto ml-auto text-center">
+            <a class="nav-item nav-link h2 mr-5" href="#">Home</a>
+            <a class="nav-item nav-link h2 mr-5" href="#">About</a>
+            <a class="nav-item nav-link h2 mr-5" href="#">Music</a>
+            <a class="nav-item nav-link h2 mr-5" href="https://jonasbrothers.com/tour/">Tour</a>
+            <a class="nav-item nav-link h2 mr-5" href="#">Contact</a>
+          </div>
+          <div class="d-flex flex-row justify-content-around">
+            <a class="btn fa fa-facebook" href="https://www.facebook.com/jonasbrothers"></a>
+            <a class="btn fa fa-youtube" href="https://www.youtube.com/jonasbrothers"></a>
+            <a class="btn fa fa-instagram" href="https://www.instagram.com/jonasbrothers"></a>
+          </div>
+        </div>   
+    </nav>
+
+
+
+
+
+
+
+
+
+
+
+     <section class="foto1">
+   
+    <img src="imagenes/Host_v2_Desktop.jpg" alt="">
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="discografia d-flex justify-content-around flex-wrap">
+      <div class="happinesbegins">
+        <img class="img-discos rounded-circle" src="imagenes/Happines begins.jpg" alt="">
+      </div>
+      <div class="linesvinesandtryingtimes">
+        <img class="img-discos rounded-circle" src="imagenes/Lines, vines and trying times.jpg" alt="">
+      </div>
+      <div class="alittlebitlonger">
+        <img class="img-discos rounded-circle" src="imagenes/A little bit longer.jpg" alt="">
+      </div>
+      <div class="jonasbrothers">
+        <img class="img-discos rounded-circle" src="imagenes/Jonas Brotherss.jpg" alt="">
+      </div>
+      <div class="itsaboutime">
+        <img class="img-discos rounded-circle" src="imagenes/Its about time.jpg" alt="">
+      </div>
+*/ 
